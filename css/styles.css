@@ -73,14 +73,18 @@ body {
   letter-spacing: 0.06em;
 }
 
-.button .primary {
+.button-active {
   color: var(--white-text-color);
   background: var(--accent-color);
+  font-weight: 500;
+  line-height: 1.6;
 }
 
-.button .secondory {
-  background: F5F4FA;
+.button-sorting {
+  background: #f5f4fa;
   color: var(--titel-text-color);
+  font-weight: 500;
+  line-height: 1.6;
 }
 
 /* Главная страница сайта*/
@@ -140,3 +144,24 @@ body {
 }
 
 /* Страница портфолио сайта */
+.sorting {
+  text-decoration: none;
+}
+
+.card .title {
+  color: var(--titel-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.card .link {
+  text-decoration: none;
+}
+
+.card .text {
+  color: var(--praimeri-text-color);
+  font-size: 16px;
+  line-height: 1.9;
+}
