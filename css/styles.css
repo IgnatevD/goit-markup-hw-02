@@ -7,20 +7,26 @@
 
 body {
   color: var(--praimeri-text-color);
-  background: #e5e5e5;
+  background: FFFFFF;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
+
 .list {
   list-style: none;
 }
-
-/* Цвет белый */
-/* Цвет акцент */
 
 /* логотип компнаиии */
 .logo {
   color: #000000;
   text-decoration: none;
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.2;
 }
+
 .logo-blue {
   color: #2196f3;
 }
@@ -29,7 +35,11 @@ body {
 .site-nav .link {
   color: var(--titel-text-color);
   text-decoration: none;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
+
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -43,6 +53,9 @@ body {
 .contacts-nav .link {
   color: var(--titel-text-color);
   text-decoration: none;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 
 .contacts-nav .link:hover,
@@ -54,21 +67,41 @@ body {
 .button {
   color: var(--white-text-color);
   background: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
 }
 
 .button .primary {
   color: var(--white-text-color);
   background: var(--accent-color);
 }
+
 .button .secondory {
   background: F5F4FA;
   color: var(--titel-text-color);
 }
 
 /* Главная страница сайта*/
+/* Герой */
+.hero .title {
+  color: var(--white-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background: grey; /* Временный фон чтоб был виден заголовок*/
+}
+
 /* Section */
 .section-title {
   color: var(--titel-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.7;
+  text-align: center;
 }
 
 /* Наши преимущества */
@@ -79,6 +112,31 @@ body {
 /*  Наша команда */
 .team .title {
   color: var(--titel-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+}
+
+.team .profession {
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+}
+
+/* Футер*/
+.footer {
+  background: #2f303a; /* Временный фон чтоб был виден текст*/
+}
+
+.footer .address {
+  color: var(--white-text-color);
+  line-height: 1.7;
+}
+.footer .telefon,
+.footer .email {
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /* Страница портфолио сайта */
