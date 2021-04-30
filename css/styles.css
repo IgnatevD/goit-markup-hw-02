@@ -86,7 +86,16 @@ body {
   font-weight: 500;
   line-height: 1.6;
 }
+.sorting .button-sorting:hover,
+.sorting .button-sorting:focus {
+  color: var(--white-text-color);
+  background: var(--accent-color);
+}
 
+.sorting .button-sorting.current {
+  color: var(--white-text-color);
+  background: var(--accent-color);
+}
 /* Главная страница сайта*/
 /* Герой */
 .hero .title {
