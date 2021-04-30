@@ -132,15 +132,23 @@ body {
 .footer {
   background: #2f303a; /* Временный фон чтоб был виден текст*/
 }
-
+.footer .logo {
+  color: var(--white-text-color);
+}
 .footer .address {
   color: var(--white-text-color);
   line-height: 1.7;
+  font-style: normal;
+  line-height: 24px;
+
+  color: #ffffff;
 }
 .footer .telefon,
 .footer .email {
   line-height: 1.7;
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 /* Страница портфолио сайта */
