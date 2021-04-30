@@ -51,7 +51,7 @@ body {
 
 /* Контакты в шапке сайта */
 .contacts-nav .link {
-  color: var(--titel-text-color);
+  color: var(--praimeri-text-color);
   text-decoration: none;
   font-weight: 500;
   line-height: 1.1;
@@ -73,12 +73,12 @@ body {
   letter-spacing: 0.06em;
 }
 
-.button-active {
+/* .button-active {
   color: var(--white-text-color);
   background: var(--accent-color);
   font-weight: 500;
   line-height: 1.6;
-}
+} */
 
 .button-sorting {
   background: #f5f4fa;
@@ -149,6 +149,11 @@ body {
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
 }
 
 /* Страница портфолио сайта */
