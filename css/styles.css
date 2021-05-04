@@ -92,10 +92,6 @@ body {
   background: var(--accent-color);
 }
 
-.sorting .button-sorting.current {
-  color: var(--white-text-color);
-  background: var(--accent-color);
-}
 /* Главная страница сайта*/
 /* Герой */
 .hero .title {
